@@ -1,0 +1,1 @@
+The Firebase SDK's `onAuthStateChanged` listener might not trigger when the authentication state changes due to a network issue or an internal Firebase error. This can lead to unexpected behavior in your application, particularly when the user's authentication status needs to be checked immediately.
